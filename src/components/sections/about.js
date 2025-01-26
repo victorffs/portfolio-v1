@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['C/C++', 'Python', 'JavaScript', 'Linux', 'AWS', 'Docker'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,35 +135,21 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              My professional career started in 2015 when I developed university research projects
+              in a makerspace – and that's when I started hacking embedded devices, which eventually
+              led me to present them at professional conferences!
             </p>
-
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              <a href="https://avnet.com/">an semiconductor distributor </a>,{' '}
+              <a href="https://simcom.com/">a cellular module manufacturer</a>,{' '}
+              <a href="https://www.santoandre.sp.gov.br/">a city government</a>, and{' '}
+              <a href="https://everbyte.com.br/">drive my own consultancy company</a>. My main focus
+              these days is develop 4G and 5G solutions and products at{' '}
+              <a href="https://fibocom.com/">Fibocom</a> for a variety of customers.
             </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
-
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
@@ -173,7 +159,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/fragoso.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

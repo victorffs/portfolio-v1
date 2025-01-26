@@ -39,6 +39,10 @@ const StyledContactSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
+
+  .contact-links .email-link {
+    margin-right: 10px; /* Adjust the value as needed */
+  }
 `;
 
 const Contact = () => {
@@ -60,13 +64,22 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+        My inbox is always open. Whether you have a question or just want to say hello, I’ll try my
+        best to get back to you! Feel free to send me an email or Whatsapp message.
       </p>
 
-      <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
-      </a>
+      <div className="contact-links">
+        <a className="email-link" href={`mailto:${email}`}>
+          Send Email
+        </a>
+        <a
+          className="email-link"
+          href="https://wa.me/5511970791572?text=Hi!%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk."
+          target="_blank"
+          rel="noopener noreferrer">
+          Send WhatsApp
+        </a>
+      </div>
     </StyledContactSection>
   );
 };
