@@ -2,6 +2,7 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
+    pathPrefix: '/portfolio-v1',
     title: 'Victor Fragoso',
     description:
       'Victor Fragoso is a software engineer specialized in IoT, embedded systems, and connectivity technologies.',
