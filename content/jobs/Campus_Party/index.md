@@ -1,7 +1,7 @@
 ---
 date: '2015-01-01'
 title: 'Communities Collaborator'
-company: 'Campus Party Brasil'
+company: 'Campus Party'
 location: 'São Paulo, Brazil'
 range: 'Jan 2015 - Jan 2018'
 url: 'https://brasil.campus-party.org/'

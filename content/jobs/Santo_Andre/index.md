@@ -1,7 +1,7 @@
 ---
 date: '2021-01-01'
 title: 'Innovation and Technology Advisor'
-company: 'City of Santo André'
+company: 'Santo André City'
 location: 'Santo André, SP, Brazil'
 range: 'Jan 2021 - Jan 2022'
 url: 'https://web.santoandre.sp.gov.br/'

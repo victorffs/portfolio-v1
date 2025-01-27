@@ -1,7 +1,7 @@
 ---
 date: '2019-01-01'
 title: 'Field Application Engineer'
-company: 'SIMCom Wireless'
+company: 'SIMCom'
 location: 'São Bernardo do Campo, SP, Brazil'
 range: 'Jan 2019 - December 2019'
 url: 'https://www.simcom.com/'

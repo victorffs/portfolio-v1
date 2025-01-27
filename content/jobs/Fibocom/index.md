@@ -1,7 +1,7 @@
 ---
 date: '2022-01-01'
 title: 'Field Application Engineer'
-company: 'Fibocom Wireless'
+company: 'Fibocom'
 location: 'São Bernardo do Campo, SP, Brazil'
 range: 'Jan 2022 - Present'
 url: 'https://www.fibocom.com/'
