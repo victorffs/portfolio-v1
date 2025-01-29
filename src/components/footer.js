@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import React from 'react';
 import styled from 'styled-components';
 import { Icon } from '@components/icons';
 import { socialMedia } from '@config';
@@ -71,27 +71,23 @@ const Footer = () => (
     <StyledSocialLinks>
       <ul>
         {socialMedia &&
-            socialMedia.map(({ name, url }, i) => (
-              <li key={i}>
-                <a href={url} aria-label={name}>
-                  <Icon name={name} />
-                </a>
-              </li>
-            ))}
+          socialMedia.map(({ name, url }, i) => (
+            <li key={i}>
+              <a href={url} aria-label={name}>
+                <Icon name={name} />
+              </a>
+            </li>
+          ))}
       </ul>
     </StyledSocialLinks>
 
     <StyledCredit tabindex="-1">
       <div>
-          by<a href="https://github.com/victorffs/portfolio-v1">Victor Fragoso</a>&amp;
+        by<a href="https://github.com/victorffs/portfolio-v1">Victor Fragoso</a>&amp;
         <a href="https://github.com/bchiang7/v4">Brittany Chiang</a>
       </div>
     </StyledCredit>
   </StyledFooter>
 );
-
-Footer.propTypes = {
-  githubInfo: PropTypes.object,
-};
 
 export default Footer;
