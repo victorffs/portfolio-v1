@@ -7,7 +7,7 @@ range: 'Jan 2015 - Jan 2018'
 url: 'https://brasil.campus-party.org/'
 ---
 
-- Assisted in organizing the event before and during Campus Party Brasil, ensuring smooth operations and engagement.
-- Coordinated with speakers and technology/innovation communities to curate content and foster collaboration.
-- Built relationships with startups and tech communities to promote innovation and knowledge sharing.
-- Contributed to event logistics and ensured effective communication between organizers, speakers, and attendees.
+- Assisted in organizing the event leading up to and during Campus Party Brasil, ensuring seamless operations and engagement.
+- Coordinated with speakers and technology and innovation communities to curate content and promote collaboration.
+- Developed relationships with startups and tech communities to drive innovation and facilitate knowledge sharing.
+- Managed event logistics and facilitated effective communication between organizers, speakers, and attendees.

@@ -11,5 +11,5 @@ tech:
   - Crowfunding
 ---
 
-One of the founders of the WikiLab, an makerspace inside an WikiHouse (an opensource house cutted on a CNC) at Federal University of ABC, builded using crowdfunding and the help from technologies communities.
-Currently Victor is responsible for promote talks, activities and workshops of technological and maker culture related subjects as free-software initiatives, data-science studying groups and retro-computing clubs.
+One of the founders of WikiLab, a makerspace inside a WikiHouse (an open-source house cut on a CNC machine) at the [Federal University of ABC](https://www.ufabc.edu.br/), built using crowdfunding and the help of technology communities.
+Currently I'm responsible for promoting talks, activities, and workshops on subjects related to technological and maker culture, such as free software initiatives, data science study groups, and retro-computing clubs.

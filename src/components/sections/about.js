@@ -135,20 +135,20 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              My professional career started in 2015 when I developed university research projects
-              in a makerspace – and that's when I started hacking embedded devices, which eventually
-              led me to present them at professional conferences!
+              My professional career started in 2015 when I was developing university research
+              projects in a makerspace – and that's when I started hacking embedded devices, which
+              eventually led me to present my work at professional conferences!
             </p>
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://avnet.com/">an semiconductor distributor </a>,{' '}
+              <a href="https://avnet.com/">a semiconductor distributor </a>,{' '}
               <a href="https://simcom.com/">a cellular module manufacturer</a>,{' '}
               <a href="https://www.santoandre.sp.gov.br/">a city government</a>, and{' '}
-              <a href="https://everbyte.com.br/">drive my own consultancy company</a>. My main focus
-              these days is develop 4G and 5G solutions and products at{' '}
+              <a href="https://everbyte.com.br/">driving my own consultancy company</a>. My main
+              focus these days is to develop 4G and 5G solutions and products at{' '}
               <a href="https://fibocom.com/">Fibocom</a> for a variety of customers.
             </p>
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I’ve been recently working with:</p>
           </div>
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
