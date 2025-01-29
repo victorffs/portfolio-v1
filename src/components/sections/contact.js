@@ -64,8 +64,9 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        My inbox is always open. Whether you have a question or just want to say hello, I’ll try my
-        best to get back to you! Feel free to send me an email or Whatsapp message.
+        My inbox is always open. Whether you have a question or just want to say hello, feel free to
+        reach out! You can email me directly at <strong>victor@frago.so</strong>, or just click the
+        buttons below to get in touch.
       </p>
 
       <div className="contact-links">
